@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.qa.test1.LunchingNaukri"/>
+      <class name="com.qa.test1.NaukriUpdate"/>
     </classes>
   </test>
 </suite>
