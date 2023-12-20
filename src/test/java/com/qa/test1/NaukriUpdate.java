@@ -29,7 +29,7 @@ public void lunch_browser() throws Throwable{
 	Thread.sleep(2000);
 	JavascriptExecutor js = ((JavascriptExecutor)driver);
 	
-	WebElement complete_btn =driver.findElement(By.xpath("//a[contains(text(),'Complete')]"));
+	WebElement complete_btn =driver.findElement(By.xpath("//a[text()=' profile']"));
 	js.executeScript("arguments[0].click();", complete_btn);
 	Thread.sleep(8000);
 	driver.findElement(By.xpath("//i[text()='deleteOneTheme']")).click();
@@ -39,7 +39,7 @@ public void lunch_browser() throws Throwable{
 	WebElement fileinput = driver.findElement(By.xpath("//input[@id='attachCV']"));
 	fileinput.sendKeys("C:\\Users\\HP\\Downloads\\My Resume\\Bikash's Resume.pdf");
 	Thread.sleep(3000);
-	driver.findElement(By.xpath("(//span[text()='editOneTheme'])[1]")).click();
+	driver.findElement(By.xpath("(//span[text()='editOneTheme'])[2]")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).clear();
 	driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).sendKeys("Having "

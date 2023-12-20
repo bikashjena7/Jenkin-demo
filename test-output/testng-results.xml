@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-19T23:12:38 IST" name="Default suite" finished-at="2023-12-19T23:13:17 IST" duration-ms="38875">
+  <suite started-at="2023-12-20T12:19:29 IST" name="Default suite" finished-at="2023-12-20T12:20:04 IST" duration-ms="35337">
     <groups>
     </groups>
-    <test started-at="2023-12-19T23:12:38 IST" name="Default test" finished-at="2023-12-19T23:13:17 IST" duration-ms="38875">
+    <test started-at="2023-12-20T12:19:29 IST" name="Default test" finished-at="2023-12-20T12:20:04 IST" duration-ms="35337">
       <class name="com.qa.test1.NaukriUpdate">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-19T23:12:38 IST" name="setup" finished-at="2023-12-19T23:12:42 IST" duration-ms="3129" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-20T12:19:29 IST" name="setup" finished-at="2023-12-20T12:19:32 IST" duration-ms="2810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="lunch_browser()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-19T23:12:42 IST" name="lunch_browser" finished-at="2023-12-19T23:13:17 IST" duration-ms="35156" status="PASS">
+        <test-method signature="lunch_browser()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-20T12:19:32 IST" name="lunch_browser" finished-at="2023-12-20T12:20:04 IST" duration-ms="32102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunch_browser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-19T23:13:17 IST" name="tearDown" finished-at="2023-12-19T23:13:17 IST" duration-ms="526" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.test1.NaukriUpdate@35aea049]" started-at="2023-12-20T12:20:04 IST" name="tearDown" finished-at="2023-12-20T12:20:04 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
