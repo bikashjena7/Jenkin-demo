@@ -42,9 +42,10 @@ public void lunch_browser() throws Throwable{
 	driver.findElement(By.xpath("(//span[text()='editOneTheme'])[2]")).click();
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).clear();
-	driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).sendKeys("Having "
-			+ "2+ years experience as a QA tester. Knowledge and experience in automated "
-			+ "testing tools, Selenium, OOPS concept, Java and Python");
+	driver.findElement(By.xpath("//textarea[@id='resumeHeadlineTxt']")).sendKeys("3+ years experience "
+			+ "as a QA tester having Knowledge and Experience in automated testing tools. Selenium, OOPS "
+			+ "concepts, and Java Script Familiarity with Agile frameworks and Regression testing along "
+			+ "with an ability to document and troubleshoot error");
 	driver.findElement(By.xpath("//button[text()='Save']")).click();
 	Thread.sleep(3000);
 
