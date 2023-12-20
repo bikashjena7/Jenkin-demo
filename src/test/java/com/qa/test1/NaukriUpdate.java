@@ -22,7 +22,7 @@ public void setup() throws Throwable{
 public void lunch_browser() throws Throwable{
 	driver.manage().window().maximize();
 	driver.get("https://www.naukri.com/nlogin/login");
-	driver.findElement(By.id("usernameField")).sendKeys("bikashjena70086@gmail.com");
+	driver.findElement(By.id("usernameField")).sendKeys("bikash.jena.qa@gmail.com");
 	driver.findElement(By.id("passwordField")).sendKeys("aB@7008692723");
 	Thread.sleep(2000);
 	driver.findElement(By.xpath("//button[text()='Login']")).click();
